@@ -1,9 +1,11 @@
 var ball;
 
+//to load images, animations and sound
 function preload(){
   
 }
 
+//to create canvas and sprites
 function setup() {
   createCanvas(400,400);
   
@@ -13,12 +15,13 @@ function setup() {
 
 }
 
+
+//game functionalities
 function draw() {
   background("black"); 
   
   //change background color to "#DEBACE" when up arrow is pressed
-  
-  if(keyDown("up"){
+  if(keyIsDown("up")){
      background("#DEBACE");
   }
 
