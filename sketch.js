@@ -21,7 +21,7 @@ function draw() {
   background("black"); 
   
   //change background color to "#DEBACE" when up arrow is pressed
-  if(keyIsDown("up")){
+  if(keyDown("up")){
      background("#DEBACE");
   }
 
